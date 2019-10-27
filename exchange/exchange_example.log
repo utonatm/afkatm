@@ -1,0 +1,57 @@
+  Contract: AtmExchange
+1
+Rate(min,max) =144000000000000000000 139680000000000000000
+    v Get  Exchange rates (4381ms)
+{ tx:
+   '0x879b166872326dd0b3e889ed830fdfbc9ba3545e0d66313f1a7d7854188bbf0f',
+  receipt:
+   { blockHash:
+      '0xa5b7626696fa85b27d6f5530c470c7bb60e75d1bd4efb8bad2eafe54225013d4',
+     blockNumber: 14413933,
+     contractAddress: null,
+     cumulativeGasUsed: 531268,
+     from: '0xea29aee9ca7806cbe359dd9ac686075d6f3d4721',
+     gasUsed: 531268,
+     logs: [ [Object] ],
+     logsBloom:
+      '0x00000000048000100000000000000000200010001000000044000000000000004008000000000000002000000000000000000000800000000000000000200000000000000000000000000008000000000000000000000040000000000000100000000000000000000004000000080000010000010000040000000010000000000000000040000000020000100000050000001000000000000020000000002010020000000000000000010000084000040000000c00000000000200000000000000000002010000000000000000000010000010000000000000080000000000000014000000000000041000000009000000040100000000004000000000000004',
+     root: null,
+     status: true,
+     to: '0xd11f1077efdf72c196c82b243786f88b5e63e3a3',
+     transactionHash:
+      '0x879b166872326dd0b3e889ed830fdfbc9ba3545e0d66313f1a7d7854188bbf0f',
+     transactionIndex: 0,
+     rawLogs:
+      [ [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object],
+        [Object] ] },
+  logs:
+   [ { address: '0xD11f1077EfDF72c196C82b243786F88B5e63E3A3',
+       blockHash:
+        '0xa5b7626696fa85b27d6f5530c470c7bb60e75d1bd4efb8bad2eafe54225013d4',
+       blockNumber: 14413933,
+       logIndex: 12,
+       removed: false,
+       transactionHash:
+        '0x879b166872326dd0b3e889ed830fdfbc9ba3545e0d66313f1a7d7854188bbf0f',
+       transactionIndex: 0,
+       transactionLogIndex: '0xc',
+       type: 'mined',
+       id: 'log_9b7e5de0',
+       event: 'Swap',
+       args: [Result] } ] }
+    v Execute Swap (5633ms)
+
+
+  2 passing (12s)
+
