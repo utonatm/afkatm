@@ -2,7 +2,7 @@
 
 Uton hackathon, Minsk 2019
 
-![alt text](./preditcions/image.png)
+![alt text](./predictions/image.png)
 
 We develop AI based software for crypto ATMs with the possibility of decentralized funds exchange.
 The main aim of our solution is to reduce crypto ATMs servicing costs.
